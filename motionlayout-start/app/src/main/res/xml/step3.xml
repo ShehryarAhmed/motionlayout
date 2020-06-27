@@ -28,6 +28,27 @@
         />
 
         <!-- TODO: Add KeyFrameSet and KeyPosition -->
+        <KeyFrameSet>
+
+            <KeyPosition
+                app:framePosition="50"
+                app:motionTarget="@id/moon"
+                app:keyPositionType="parentRelative"
+                app:percentY="0.5"
+                />
+            <KeyPosition
+                app:framePosition="25"
+                app:motionTarget="@id/moon"
+                app:keyPositionType="parentRelative"
+                app:percentY="0.8"
+                />
+            <KeyPosition
+                app:framePosition="35"
+                app:motionTarget="@id/moon"
+                app:keyPositionType="parentRelative"
+                app:percentY="0.6"
+                />
+        </KeyFrameSet>
     </Transition>
 
     <!-- Constraints to apply at the start of the animation -->
